@@ -1,20 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    int a;
-    scanf("%d", &a);
+    int n;
+    scanf("%d", &n);
 
-    if (a == 1)
+    if (n == 1)
     {
         printf("1\n");
     }
     else
     {
-        for (int i = 1; i <= a; i++)
+        for (int i = 1; i <= n; i++)
         {
-            if (a % i == 0)
+            if (n % i == 0)
             {
-                printf("%d ", i);
+                printf("%d\n", i);
             }
         }
     }

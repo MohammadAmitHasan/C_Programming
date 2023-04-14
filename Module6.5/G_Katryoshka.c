@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
+    long long int a, b, c;
+    scanf("%lld %lld %lld", &a, &b, &c);
 
-    int toy = 0, toy2 = 0;
-    int eye;
+    long long int toy = 0, toy2 = 0;
+    long long int eye;
 
     if (a >= 1 && b >= 1 && c >= 1)
     {
@@ -30,7 +30,7 @@ int main()
             a = a - c;
             c = 0;
         }
-        }
+    }
 
     // First case
     if (a >= 2 && c >= 1)
